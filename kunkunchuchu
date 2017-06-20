@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require 'r-fxxk'
+
+class Kunkunchuchu < Brainfuck
+  nxt 'くんくん'
+  inc 'ちゅっちゅ'
+  prv 'ぺろぺろ'
+  dec 'ぴゅっぴゅ'
+  opn 'んっんっ'
+  cls 'あっあっ'
+  put 'ふっふっ'
+  get 'むはむは'
+end
+
+puts Kunkunchuchu.new.fuck(ARGF.read)
